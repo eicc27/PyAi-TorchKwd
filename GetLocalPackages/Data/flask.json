@@ -1,0 +1,197 @@
+{
+    "json": {
+        "tag": {
+            "JSONTag": "class",
+            "TagDict": "class",
+            "PassDict": "class",
+            "TagTuple": "class",
+            "PassList": "class",
+            "TagBytes": "class",
+            "TagMarkup": "class",
+            "TagUUID": "class",
+            "TagDateTime": "class",
+            "TaggedJSONSerializer": "class"
+        },
+        "": {
+            "_slash_escape": "variable",
+            "__all__": "variable",
+            "_wrap_reader_for_text": "function",
+            "_wrap_writer_for_text": "function",
+            "JSONEncoder": "class",
+            "JSONDecoder": "class",
+            "_dump_arg_defaults": "function",
+            "_load_arg_defaults": "function",
+            "detect_encoding": "function",
+            "dumps": "function",
+            "dump": "function",
+            "loads": "function",
+            "load": "function",
+            "htmlsafe_dumps": "function",
+            "htmlsafe_dump": "function",
+            "jsonify": "function",
+            "tojson_filter": "function"
+        }
+    },
+    "app": {
+        "_sentinel": "variable",
+        "_make_timedelta": "function",
+        "setupmethod": "function",
+        "Flask": "class"
+    },
+    "blueprints": {
+        "_sentinel": "variable",
+        "BlueprintSetupState": "class",
+        "Blueprint": "class"
+    },
+    "cli": {
+        "NoAppException": "class",
+        "find_best_app": "function",
+        "call_factory": "function",
+        "_called_with_wrong_args": "function",
+        "find_app_by_string": "function",
+        "prepare_import": "function",
+        "locate_app": "function",
+        "get_version": "function",
+        "version_option": "variable",
+        "DispatchingApp": "class",
+        "ScriptInfo": "class",
+        "pass_script_info": "variable",
+        "with_appcontext": "function",
+        "AppGroup": "class",
+        "FlaskGroup": "class",
+        "_path_is_ancestor": "function",
+        "load_dotenv": "function",
+        "show_server_banner": "function",
+        "CertParamType": "class",
+        "_validate_key": "function",
+        "SeparatedPathType": "class",
+        "run_command": "function",
+        "shell_command": "function",
+        "routes_command": "function",
+        "cli": "variable"
+    },
+    "config": {
+        "ConfigAttribute": "class",
+        "Config": "class"
+    },
+    "ctx": {
+        "_sentinel": "variable",
+        "_AppCtxGlobals": "class",
+        "after_this_request": "function",
+        "copy_current_request_context": "function",
+        "has_request_context": "function",
+        "has_app_context": "function",
+        "AppContext": "class",
+        "RequestContext": "class"
+    },
+    "debughelpers": {
+        "UnexpectedUnicodeError": "class",
+        "DebugFilesKeyError": "class",
+        "FormDataRoutingRedirect": "class",
+        "attach_enctype_error_multidict": "function",
+        "_dump_loader_info": "function",
+        "explain_template_loading_attempts": "function",
+        "explain_ignored_app_run": "function"
+    },
+    "globals": {
+        "_request_ctx_err_msg": "variable",
+        "_lookup_req_object": "function",
+        "_lookup_app_object": "function",
+        "_find_app": "function",
+        "_request_ctx_stack": "variable",
+        "_app_ctx_stack": "variable",
+        "current_app": "variable",
+        "request": "variable",
+        "session": "variable",
+        "g": "variable"
+    },
+    "helpers": {
+        "_missing": "variable",
+        "_os_alt_seps": "variable",
+        "get_env": "function",
+        "get_debug_flag": "function",
+        "get_load_dotenv": "function",
+        "_endpoint_from_view_func": "function",
+        "stream_with_context": "function",
+        "make_response": "function",
+        "url_for": "function",
+        "get_template_attribute": "function",
+        "flash": "function",
+        "get_flashed_messages": "function",
+        "send_file": "function",
+        "safe_join": "function",
+        "send_from_directory": "function",
+        "get_root_path": "function",
+        "_matching_loader_thinks_module_is_package": "function",
+        "_find_package_path": "function",
+        "find_package": "function",
+        "locked_cached_property": "class",
+        "_PackageBoundObject": "class",
+        "total_seconds": "function",
+        "is_ip": "function"
+    },
+    "logging": {
+        "wsgi_errors_stream": "function",
+        "has_level_handler": "function",
+        "default_handler": "variable",
+        "_has_config": "function",
+        "create_logger": "function"
+    },
+    "sessions": {
+        "SessionMixin": "class",
+        "SecureCookieSession": "class",
+        "NullSession": "class",
+        "SessionInterface": "class",
+        "session_json_serializer": "variable",
+        "SecureCookieSessionInterface": "class"
+    },
+    "signals": {
+        "_signals": "variable",
+        "template_rendered": "variable",
+        "before_render_template": "variable",
+        "request_started": "variable",
+        "request_finished": "variable",
+        "request_tearing_down": "variable",
+        "got_request_exception": "variable",
+        "appcontext_tearing_down": "variable",
+        "appcontext_pushed": "variable",
+        "appcontext_popped": "variable",
+        "message_flashed": "variable"
+    },
+    "templating": {
+        "_default_template_ctx_processor": "function",
+        "Environment": "class",
+        "DispatchingJinjaLoader": "class",
+        "_render": "function",
+        "render_template": "function",
+        "render_template_string": "function"
+    },
+    "testing": {
+        "EnvironBuilder": "class",
+        "make_test_environ_builder": "function",
+        "FlaskClient": "class",
+        "FlaskCliRunner": "class"
+    },
+    "views": {
+        "http_method_funcs": "variable",
+        "View": "class",
+        "MethodViewType": "class",
+        "MethodView": "class"
+    },
+    "wrappers": {
+        "JSONMixin": "class",
+        "Request": "class",
+        "Response": "class"
+    },
+    "_compat": {
+        "PY2": "variable",
+        "_identity": "variable",
+        "with_metaclass": "function",
+        "BROKEN_PYPY_CTXMGR_EXIT": "variable",
+        "_DeprecatedBool": "class",
+        "json_available": "variable"
+    },
+    "": {
+        "__version__": "variable"
+    }
+}
